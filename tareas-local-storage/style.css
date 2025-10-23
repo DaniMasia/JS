@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: rgb(82, 19, 19);
+    color: white;
+    
+    
+}
+
+input,#addTaskBtn,#clearCompletedBtn{
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.task { 
+    margin-bottom: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.completed { 
+    text-decoration: line-through; 
+    color: gray; 
+    margin-bottom: 5px;
+    font-size: 18px;
+    padding: 5px;
+}

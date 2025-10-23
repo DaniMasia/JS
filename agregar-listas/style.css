@@ -1,0 +1,22 @@
+
+body {
+    padding-top: 30px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(82, 19, 19);
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+li {
+    margin: 5px 0;
+}
+button.eliminar {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 3px 6px;
+    cursor: pointer;
+}
