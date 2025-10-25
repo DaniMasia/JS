@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis Proyectos de JavaScript</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0d0d0d;
+      font-family: 'Inter', sans-serif;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px 10px;
+    }
+
+    header h1 {
+      font-size: 2.3rem;
+      font-weight: 600;
+      margin: 0;
+      color: #ffffff;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1300px;
+      margin: 50px auto;
+      display: grid;
+      gap: 25px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .card {
+      background-color: #1a1a1a;
+      padding: 25px 15px;
+      border-radius: 10px;
+      text-align: center;
+      border: 1px solid #2a2a2a;
+      transition: 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+      font-size: 1.05rem;
+      font-weight: 400;
+    }
+
+    .card:hover {
+      background-color: #222;
+      transform: translateY(-6px);
+      border-color: #444;
+    }
+
+    footer {
+      text-align: center;
+      padding: 35px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mis Proyectos de JavaScript</h1>
+  </header>
+
+  <main class="container">
+    <a href="agregar-listas/" class="card">Agregar Listas</a>
+    <a href="calculadora/" class="card">Calculadora</a>
+    <a href="color-random/" class="card">Color Random</a>
+    <a href="contador-de-clicks/" class="card">Contador de Clicks</a>
+    <a href="contador-palabras/" class="card">Contador de Palabras</a>
+    <a href="desenfoque/" class="card">Desenfoque</a>
+    <a href="filtro-de-busqueda/" class="card">Filtro de Búsqueda</a>
+    <a href="generador-contraseñas/" class="card">Generador de Contraseñas</a>
+    <a href="menu-responsive-hamburguesa/" class="card">Menú Responsive Hamburguesa</a>
+    <a href="tareas-local-storage/" class="card">Tareas con LocalStorage</a>
+    <a href="temporizador/" class="card">Temporizador</a>
+  </main>
+
+  <footer>
+    © 2025 - Mis Mini Proyectos con JavaScript
+  </footer>
+
+</body>
+</html>
